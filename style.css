@@ -1,0 +1,169 @@
+body{
+    margin:auto;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight:500;
+    background-image: url(images/bg-main-desktop.png);
+    background-size: 30% 3000%;
+    background-repeat: no-repeat, repeat;
+}
+
+#complete-section{
+    display:flex;
+    flex-direction: row;
+    margin:auto;
+    
+}
+
+.card-section{
+    display:flex;
+    flex-direction: column;
+}
+
+.card-front,.card-back-img,.submit-button{
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;	
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+.card-front{
+    background: url(images/bg-card-front.png);
+    width:360px;
+    height:200px;
+    margin-left:200px;
+    margin-top:160px;
+    margin-bottom:30px;
+}
+
+.card-logo,.card-number,.card-details{
+    position:absolute;
+}
+
+.card-logo{
+    margin:20px;
+}
+.card-number{
+    margin-top:100px;
+    margin-left:20px;
+    font-size:1.8rem;
+    color:white;
+}
+
+.card-details{
+    display:flex;
+    margin-top:150px;
+    margin-left:20px;
+    color:white;
+}
+
+
+.card-expiry{
+    margin-left: 265px;
+    position:fixed;
+}
+
+
+.card-back-img{
+    position:absolute;
+    width:360px;
+    height:200px;
+    margin-left:300px;
+    margin-top:0;
+}
+
+.card-back-content{
+    position: absolute;
+    margin-left:580px;
+    margin-top:87px;
+    color:white;
+}
+
+#details-section{
+    display:block;  
+    margin-left:250px;
+    margin-top:200px;
+}
+
+.card-input-box,.card-number-details-input-box,.exp-month-input-box,.exp-year-input-box,.cvc-input-box{
+    margin-top:5px;
+    width:300px;
+    height:30px;
+    border:1px solid hsl(270, 3%, 87%);
+    font-size: 0.9rem;
+    
+    padding-left:5%;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;	
+    -moz-border-radius: 10px;
+    border-radius: 5px;  
+}
+.cardholder-name,.card-number-details,.exp-date-heading,.cvc-heading{
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+}
+
+::placeholder{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight:500;
+    color:hsl(270, 3%, 87%);
+
+}
+
+.exp-date{
+    display:flex;
+    flex-direction: row;
+}
+
+.exp-month-input-box,.exp-year-input-box{
+    width:80px;
+    margin-right:15px;
+}
+
+.exp-cvc-section{
+    display:flex;
+    flex-direction: row;
+}
+
+.exp{
+    width:200px;
+}
+.cvc-input-box{
+    width:110px;
+}
+
+.submit-button{
+    margin-top:40px;
+    width:320px;
+    height:50px;
+    color:white;
+    background-color: hsl(278, 68%, 11%);
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+#thanks-section{
+    margin-left:280px;
+    margin-top:200px;
+    text-align: center;   
+    visibility:hidden;
+}
+
+.thanks-1{
+    margin-top:30px;
+    font-size:1.5rem;
+    letter-spacing: 3px;
+}
+.thanks-2{
+    margin-top:12px;
+    color:hsl(279, 6%, 55%);
+}
+
+/* .thanks-section-toggle{
+    display:inline;
+} */
+/* .details-section-toggle{
+    display:none;
+} */
+
